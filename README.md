@@ -1,3 +1,163 @@
+# SaaS Data Analysis Project: Product Usage, Sales Funnel & Customer Feedback Insights
+
+🎯 This project simulates the real-world operations of a B2B SaaS product, showcasing how data analysis can support product optimization, sales strategy adjustment, and market decision-making. From data generation to visualization, it covers multiple dimensions including user behavior, sales funnel transitions, customer feedback, marketing campaign performance, and market trends.
+
+🎯 The goal is to demonstrate my ability to independently complete the full workflow from data construction, cleaning, and analysis to visualization—especially crafting insightful analysis reports to help stakeholders understand user behavior, optimize funnel performance, evaluate channel effectiveness, and identify market opportunities.
+
+## 🟣 Project Background & Objectives
+
+### 🎯 Background
+
+I created a simulated dataset representing a typical SaaS business environment, covering:
+
+- User product usage logs (feature interaction, platform preference, session duration)  
+- Marketing lead conversion data (standard sales funnel model)  
+- Customer feedback data (with scores and sentiment analysis)  
+- Market trend indicators (industry growth, competitor activity, pricing trends)  
+- Multi-channel marketing campaign performance (clicks, conversions, cost)
+
+### 🎯 Objectives
+
+Reconstruct realistic business logic through data analysis and uncover relationships between user behavior and business metrics to inform product and marketing decisions.
+
+
+## 🟣 Analysis Modules
+
+### 1. Product Feature Usage Analysis
+
+**1.1 Analysis Scope**  
+- Most popular product features  
+- Platform preferences (Web / iOS / Android)  
+- Average session duration trends  
+
+**1.2 Visualizations**  
+<p align="center">
+  <img src="charts/feature_usage.png" alt="Top 5 Product Features" width="50%">
+</p>
+<p align="center">
+  <img src="charts/platform_usage.png" alt="Product Usage by Platform" width="50%">
+</p>
+
+**1.3 Business Insights**  
+- Identify core value-driving features and user engagement  
+- Guide product investment and platform-specific optimization  
+
+
+### 2. Sales Funnel Analysis
+
+**2.1 Analysis Scope**  
+- Lead distribution across funnel stages  
+- Conversion rates at each stage  
+- Win rate comparison by lead source  
+
+**2.2 Visualizations**  
+<p align="center">
+  <img src="charts/sales_funnel_stage_distribution.png" alt="Sales Funnel Stage Distribution" width="50%">
+</p>
+<p align="center">
+  <img src="charts/win_rate_by_lead_source.png" alt="Win Rate by Lead Source" width="50%">
+</p>
+
+**2.3 Business Insights**  
+- Identify conversion bottlenecks and optimize sales strategies  
+- Improve marketing budget allocation by channel efficiency  
+
+
+### 3. Marketing Campaign Performance Analysis
+
+**3.1 Analysis Scope**  
+- Total conversions by channel and campaign type  
+- Comparison of average cost per lead (CPL)  
+- Click-through rate and cost-efficiency evaluation  
+
+**3.2 Visualizations**  
+<p align="center">
+  <img src="charts/total_conversions_by_marketing_channel.png" alt="Total Conversions by Marketing Channel and Campaign Type" width="50%">
+</p>
+<p align="center">
+  <img src="charts/average_cost_per_conversion.png" alt="Average Cost Per Conversion by Marketing Channel and Campaign Type" width="50%">
+</p>
+
+**3.3 Business Insights**  
+- Measure marketing ROI to inform budget decisions  
+- Identify the most efficient campaign combinations  
+
+### 4. Customer Feedback Analysis
+
+**4.1 Analysis Scope**  
+- Distribution of feedback types: NPS, reviews, support tickets, and social comments  
+- Average sentiment score by feedback type (scale: 1 to 5)  
+- Keyword extraction for positive and negative sentiment  
+
+**4.2 Visualizations**  
+<p align="center">
+  <img src="charts/distribution_of_customer_feedback.png" alt="Distribution of Customer Feedback" width="50%">
+</p>
+<p align="center">
+  <img src="charts/average_sentiment_score_by_feedback_type.png" alt="Average Sentiment Score by Feedback Type" width="50%">
+</p>
+
+**4.3 Business Insights**  
+- Identify primary feedback channels to optimize research and support  
+- Reveal product pain points and churn risks through sentiment trends  
+- Extract keyword patterns for product enhancement and marketing copywriting  
+
+### 5. Market Trend Analysis
+
+**5.1 Analysis Scope**  
+- Market size index over 24 months (growth + seasonality)  
+- Competitor activity via new product releases  
+- Average market price trend  
+- Recent market growth rate (last 2 months)  
+
+**5.2 Visualizations**  
+<p align="center">
+  <img src="charts/market_size_index.png" alt="Market Size Index" width="50%">
+</p>
+<p align="center">
+  <img src="charts/competitor_new_product_release.png" alt="Competitor New Product Release" width="50%">
+</p>
+
+**5.3 Business Insights**  
+- Market growth period is ideal for scaling acquisition and investment  
+- Competitive peaks require attention to traffic and user retention  
+- Rising market prices suggest opportunities for premium positioning or bundling  
+
+## 🟣 Tech Stack & Tools
+
+- Language & Libraries: **Python** (Pandas, Numpy, Random, datetime)  
+- Data Visualization: **Matplotlib, Seaborn, WordCloud**  
+- NLP (Optional Extension): **TextBlob, Jieba**  
+- Development Environment: Jupyter Notebook  
+- Version Control: Git + GitHub
+
+## 🟣 Project Highlights
+
+- ✅ End-to-end process: data generation, modeling, analysis, and visualization  
+- ✅ Covers common business analytics themes: usage, sales funnel, marketing, feedback  
+- ✅ Clean structure and intuitive visuals — ideal for portfolio showcasing  
+- ✅ Easily extensible to real business datasets for reuse or customization  
+
+## 🟣 Project Repository
+
+👉 GitHub Repo: [glowye/product-insight-case](https://github.com/glowye/product-insight-case)
+
+## 🟣 Project Structure
+
+```
+product-insight-case/
+├── product_usage.py                  
+├── charts/                           
+│   ├── top5_feature_usage.png
+│   ├── platform_usage.png
+│   ├── sales_funnel_stage_distribution.png
+│   ├── win_rate_by_lead_source.png
+│   ├── total_conversions_by_marketing_channel.png
+│   ├── average_cost_per_conversion.png
+│   └── ...（其他图表）
+├── README.md                         
+```
+---
 #  SaaS 数据分析项目案例：产品使用、销售漏斗与客户反馈洞察
 
 🎯 本项目模拟一个 B2B SaaS 产品的真实运营场景，系统性展示如何通过数据分析支持 产品优化、销售策略调整和市场决策制定。从数据生成到可视化呈现，涵盖产品使用行为、销售转化路径、客户反馈和营销渠道表现等多个维度。
