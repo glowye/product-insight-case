@@ -4,20 +4,21 @@
 
 ---
 
-## 📁 项目结构
+## 📂 项目结构
+
+```
 product-insight-case/
-│
-├── product_usage.py # 数据生成 + 分析脚本
-├── charts/ # 图表文件夹（截图保存为 .png）
-│ ├── top5_feature_usage.png
-│ ├── platform_usage.png
-│ ├── sales_funnel_stage_distribution.png
-│ ├── win_rate_by_source.png
-│ ├── campaign_conversions.png
-│ ├── campaign_cpl.png
-│ ├── feedback_type_distribution.png
-│ └── ...（其余图表）
-└── README.md # 项目说明文档（即本文件）
+├── product_usage.py                  # 数据生成 + 分析脚本
+├── charts/                           # 图表文件夹（截图保存为 .png）
+│   ├── top5_feature_usage.png
+│   ├── platform_usage.png
+│   ├── sales_funnel_stage_distribution.png
+│   ├── win_rate_by_lead_source.png
+│   ├── total_conversions_by_marketing_channel.png
+│   ├── average_cost_per_conversion.png
+│   └── ...（其他图表）
+├── README.md                         # 项目说明文档（即本文）
+```
 
 ---
 
