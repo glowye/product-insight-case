@@ -98,11 +98,19 @@ def generate_marketing_campaign_data(num_campaigns=10, num_months=12):
     return df
 
 # --- 4. 客户反馈数据 ---
+# --- 4. 客户反馈数据（优化后） ---
 def generate_customer_feedback_data(num_feedback=1500):
     feedback_types = ['NPS Survey', 'Product Review', 'Support Ticket', 'Social Media Comment']
     feedback_weights = [0.4, 0.3, 0.2, 0.1]
-    sentiment_scores = [1, 2, 3, 4, 5] # 1: Very Negative, 5: Very Positive
-    sentiment_weights = [0.1, 0.1, 0.3, 0.3, 0.2]
+    
+    # 每种反馈类型的情绪分布（更贴近现实）
+    sentiment_distributions = {
+        'NPS Survey':              [0.05, 0.05, 0.25, 0.4, 0.25],  # 偏正面
+        'Product Review':          [0.1, 0.1, 0.4, 0.3, 0.1],      # 居中略偏正
+        'Support Ticket':          [0.3, 0.3, 0.3, 0.08, 0.02],    # 偏负面
+        'Social Media Comment':    [0.15, 0.15, 0.3, 0.25, 0.15]   # 两极分化
+    }
+
     topics = ['Usability', 'Performance', 'Features', 'Customer Support', 'Pricing', 'Onboarding']
     topic_weights = [0.2, 0.15, 0.3, 0.2, 0.1, 0.05]
     start_date = datetime(2023, 1, 1)
@@ -112,9 +120,8 @@ def generate_customer_feedback_data(num_feedback=1500):
         feedback_id = f'feedback_{i:04d}'
         user_id = f'user_{random.randint(0, 999):04d}'
         feedback_type = random.choices(feedback_types, weights=feedback_weights)[0]
-        sentiment = random.choices(sentiment_scores, weights=sentiment_weights)[0]
+        sentiment = random.choices([1, 2, 3, 4, 5], weights=sentiment_distributions[feedback_type])[0]
         topic = random.choices(topics, weights=topic_weights)[0]
-        
 
         if sentiment >= 4:
             feedback_text = f"I really love the {topic}. It's so easy and helpful. Excellent work!"
@@ -129,6 +136,7 @@ def generate_customer_feedback_data(num_feedback=1500):
 
     df = pd.DataFrame(data, columns=['feedback_id', 'user_id', 'feedback_type', 'sentiment_score', 'feedback_text', 'feedback_date'])
     return df
+
 
 # --- 5. 市场趋势数据 ---
 def generate_market_trend_data(num_months=24):
