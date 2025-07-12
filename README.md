@@ -33,7 +33,7 @@
 - 用户平均使用时长趋势
 
 📷 图表1：
-![功能使用分布](charts/top5_feature_usage.png)
+![功能使用分布](/Users/faye/Downloads/product-insight-case/charts/top5_feature_usage.png)
 
 ---
 
