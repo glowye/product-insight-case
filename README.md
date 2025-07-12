@@ -29,9 +29,13 @@
 
 1.2 图示：
 
-[Top Features](charts/feature_usage.png)  
-[Platform Usage](charts/platform_usage.png)
+<p align="center">
+  <img src="charts/feature_usage.png" alt="Top 5 Product Features" width="50%">
+</p>
 
+<p align="center">
+  <img src="charts/platform_usage.png" alt="Product Usage by Platform" width="50%">
+</p>
 1.3 业务洞察价值：
 
 - 揭示核心功能价值与使用粘性
@@ -47,8 +51,13 @@
 
 2.2 图示：
 
-[Funnel Stage](charts/sales_funnel_stage_distribution.png)  
-[Win Rate by Source](charts/win_rate_by_lead_source.png)
+<p align="center">
+  <img src="charts/sales_funnel_stage_distribution.png" alt="Sales Funnel Stage Distribution" width="50%">
+</p>
+
+<p align="center">
+  <img src="harts/win_rate_by_lead_source.png" alt="Win Rate by Lead Source" width="50%">
+</p>
 
 2.3 业务洞察价值：
 
@@ -65,8 +74,14 @@
 
 3.2 图示：
 
-[Campaign Conversion](charts/total_conversions_by_marketing.png)  
-[CPL Comparison](charts/average_cost_per_conversion.png)
+<p align="center">
+  <img src="charts/total_conversions_by_marketing.png" alt="Total Conversions by Marketing Channel and Campaign Type" width="50%">
+</p>
+
+<p align="center">
+  <img src="charts/average_cost_per_conversion.png" alt="Average Cost Per Conversion by Marketing Channel and Campaign Type" width="50%">
+</p>
+
 
 3.3 业务洞察价值：
 - 衡量营销 ROI，精细化投放预算
@@ -82,7 +97,7 @@
 
 4.2 图示：
 
-[Feedback Type](charts/feedback_type_distribution.png)
+![Feedback Type](charts/feedback_type_distribution.png)
 
 4.3 业务洞察价值：
 
