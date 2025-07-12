@@ -76,7 +76,7 @@
 3.2 图示：
 
 <p align="center">
-  <img src="charts/total_conversions_by_marketing.png" alt="Total Conversions by Marketing Channel and Campaign Type" width="50%">
+  <img src="charts/total_conversions_by_marketing_channel.png" alt="Total Conversions by Marketing Channel and Campaign Type" width="50%">
 </p>
 
 <p align="center">
@@ -115,10 +115,10 @@
 
 ## 🟣 项目亮点
 
-✅ 从 0 到 1 模拟数据生成、数据建模、分析与可视化全流程
-✅ 贴合商业分析常见主题：产品行为、销售转化、营销评估、客户反馈
-✅ 图表直观、结构清晰，适合在作品集中展示
-✅ 可扩展性强：支持替换为实际业务数据用于复用或定制化报告输出
+- ✅ 从 0 到 1 模拟数据生成、数据建模、分析与可视化全流程
+- ✅ 贴合商业分析常见主题：产品行为、销售转化、营销评估、客户反馈
+- ✅ 图表直观、结构清晰，适合在作品集中展示
+- ✅ 可扩展性强：支持替换为实际业务数据用于复用或定制化报告输出
 
 ## 🟣 项目地址
 
