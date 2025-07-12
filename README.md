@@ -36,6 +36,7 @@
 <p align="center">
   <img src="charts/platform_usage.png" alt="Product Usage by Platform" width="50%">
 </p>
+
 1.3 业务洞察价值：
 
 - 揭示核心功能价值与使用粘性
@@ -56,7 +57,7 @@
 </p>
 
 <p align="center">
-  <img src="harts/win_rate_by_lead_source.png" alt="Win Rate by Lead Source" width="50%">
+  <img src="charts/win_rate_by_lead_source.png" alt="Win Rate by Lead Source" width="50%">
 </p>
 
 2.3 业务洞察价值：
@@ -82,8 +83,8 @@
   <img src="charts/average_cost_per_conversion.png" alt="Average Cost Per Conversion by Marketing Channel and Campaign Type" width="50%">
 </p>
 
-
 3.3 业务洞察价值：
+
 - 衡量营销 ROI，精细化投放预算
 - 提炼高效渠道组合策略
 
