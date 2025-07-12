@@ -92,18 +92,50 @@
 
 4.1 分析内容：
 
-- 反馈类型分布（NPS、Review、社媒评论等）
-- 各类反馈的情感倾向与打分分布
-- 高频关键词和负面情绪词云分析（可拓展）
+- 客户反馈类型分布：分析 NPS、评论、客服工单、社交媒体反馈数量
+- 各反馈类型的平均情绪得分：衡量客户满意度高低（1~5分制）
+- 积极/消极关键词提取：识别典型正负面用词，洞察情绪倾向
 
 4.2 图示：
 
-![Feedback Type](charts/feedback_type_distribution.png)
+<p align="center">
+  <img src="charts/distribution_of_customer_feedback.png" alt="Distribution of Customer Feedback" width="50%">
+</p>
+
+<p align="center">
+  <img src="charts/average_sentiment_score_by_feedback_type.png" alt="Average Sentiment Score by Feedback Type" width="50%">
+</p>
 
 4.3 业务洞察价值：
 
-- 理解用户痛点与情绪波动
-- 为产品迭代提供定性输入
+- 明确主要反馈来源渠道，优化用户调研与客服资源配置
+- 通过情绪趋势分析识别产品短板或潜在流失风险点
+- 分析用户关注的正负面关键词，有助于产品改进与内容营销优化
+
+### 5. 市场趋势分析
+
+5.1 分析内容：
+
+- 市场规模指数变化：展示 24 个月市场增长与季节波动
+- 竞争对手活跃度变化：观察新品发布频率
+- 市场价格走势：分析平均价格变化趋势
+- 近期市场增速分析：展示最近两月增长率
+
+5.2 图示：
+
+<p align="center">
+  <img src="charts/market_size_index.png" alt="Market Size Index" width="50%">
+</p>
+
+<p align="center">
+  <img src="charts/competitor_new_product_release.png" alt="Competitor New Product Release" width="50%">
+</p>
+
+5.3 业务洞察价值：
+
+- 市场规模上升期有利于扩大投放与销售增长
+- 竞争活跃周期需警惕流量瓜分与用户流失
+- 市场价格上升可用于产品溢价策略调整或捆绑优化
 
 ## 🟣 技术栈与工具
 
