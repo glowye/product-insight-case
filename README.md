@@ -33,7 +33,7 @@
 - 用户平均使用时长趋势
 
 📷 Figure 1：
-!(feature_usage.png)
+![](feature_usage.png)
 
 ---
 
